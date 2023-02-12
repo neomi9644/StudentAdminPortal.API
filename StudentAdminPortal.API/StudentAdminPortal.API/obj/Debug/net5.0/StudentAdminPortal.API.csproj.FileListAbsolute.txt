@@ -63,4 +63,3 @@ C:\Users\nacohen\OneDrive - COGNYTE\Desktop\Angular Training\Student Admin Porta
 C:\Users\nacohen\OneDrive - COGNYTE\Desktop\Angular Training\Student Admin Portal\StudentAdminPortal.API\StudentAdminPortal.API\StudentAdminPortal.API\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
 C:\Users\nacohen\OneDrive - COGNYTE\Desktop\Angular Training\Student Admin Portal\StudentAdminPortal.API\StudentAdminPortal.API\StudentAdminPortal.API\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
 C:\Users\nacohen\OneDrive - COGNYTE\Desktop\Angular Training\Student Admin Portal\StudentAdminPortal.API\StudentAdminPortal.API\StudentAdminPortal.API\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
-C:\Users\nacohen\OneDrive - COGNYTE\Desktop\Angular Training\Student Admin Portal\StudentAdminPortal.API\StudentAdminPortal.API\StudentAdminPortal.API\obj\Debug\net5.0\StudentAdminPortal.API.csproj.AssemblyReference.cache
