@@ -26,7 +26,7 @@ namespace StudentAdminPortal.API.Controllers
             var students = await studentRepository.GetStudentsAsync();
 
             return Ok(mapper.Map<List<Student>>(students));
-            
+
         }
 
 
@@ -45,15 +45,32 @@ namespace StudentAdminPortal.API.Controllers
         [Route("[controller]/{studentId:guid}")]
         public async Task<IActionResult> UpdateStudentAsync([FromRoute] Guid studentId, [FromBody] UpdateStudentRequest request)
         {
-            if(await studentRepository.Exists(studentId))
+            if (await studentRepository.Exists(studentId))
             {
 
                 var updatesStudent = await studentRepository.UpdateStudent(studentId, mapper.Map<DataModels.Student>(request));
-                    if (updatesStudent != null)
-                        return Ok(mapper.Map<Student>(updatesStudent)); 
+                if (updatesStudent != null)
+                    return Ok(mapper.Map<Student>(updatesStudent));
             }
             return NotFound();
 
         }
+        [HttpDelete]
+        [Route("[controller]/{studentId:guid}")]
+
+        public async Task<IActionResult> DeleteStudntAsync([FromRoute] Guid studentId)
+        {
+            if (await studentRepository.Exists(studentId))
+            {
+                var student = await studentRepository.DeleteStudent(studentId);
+                return Ok(mapper.Map<Student>(student));
+
+            }
+            else
+            {
+                return NotFound();
+            }
+        }
     }
 }
+
