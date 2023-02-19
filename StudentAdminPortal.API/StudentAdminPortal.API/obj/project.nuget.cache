@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "U0x4dZe0ohmq7bTumSA5jnAl5QErEFrZ2pAuckw8XxQSFeGYP2XKUTj966B4XHWYtHanjh/8ZedYF37rKjGYvg==",
+  "dgSpecHash": "OUwkHgnLDa/7t9uQQQQ0Ha9ObvuSK8IoZdEN/btNtcuMkDHosRUcVSvPOTV/sISjRbVJqnclvV3k/tCJDkFHkA==",
   "success": true,
   "projectFilePath": "C:\\Users\\nacohen\\OneDrive - COGNYTE\\Desktop\\Angular Training\\Student Admin Portal\\StudentAdminPortal.API\\StudentAdminPortal.API\\StudentAdminPortal.API\\StudentAdminPortal.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nacohen\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\nacohen\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
+    "C:\\Users\\nacohen\\.nuget\\packages\\fluentvalidation\\11.2.1\\fluentvalidation.11.2.1.nupkg.sha512",
+    "C:\\Users\\nacohen\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.2.2\\fluentvalidation.aspnetcore.11.2.2.nupkg.sha512",
+    "C:\\Users\\nacohen\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.2.1\\fluentvalidation.dependencyinjectionextensions.11.2.1.nupkg.sha512",
     "C:\\Users\\nacohen\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\nacohen\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\nacohen\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
